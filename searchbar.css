@@ -1,0 +1,44 @@
+.input-wrapper {
+    font-size: 1.5rem;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    width: 70%;
+    background: #050544;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    box-shadow: 0.25rem 0.25rem 0rem #000000cc;
+    opacity: 0.9;
+  }
+  
+  input {
+    margin: 0 0.5rem 0 0.5rem;
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #050544;
+    color: white;
+  }
+  
+  ::placeholder {
+    color: #fff;
+  }
+
+
+  @media screen and (max-width:767px){
+
+    .input-wrapper{
+      left: 20px;
+      width: 90%;
+    }
+  }
+
+  
